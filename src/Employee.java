@@ -23,7 +23,7 @@ public class Employee {
     }
 
     public void setSalary(int salary) {
-        this.salary = salary;
+        this.salary = Math.max(salary,0);
     }
 
     public int getDepartment() {
